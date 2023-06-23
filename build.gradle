@@ -26,6 +26,9 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// from PalmOilServer
+	implementation 'com.google.cloud:google-cloud-kms:2.15.0'
 }
 
 tasks.named('test') {
